@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Instagram Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Stories Section -->
+  <div class="story-bar">
+    <div class="story"><div class="story-inner">U1</div></div>
+    <div class="story"><div class="story-inner">U2</div></div>
+    <div class="story"><div class="story-inner">U3</div></div>
+    <div class="story"><div class="story-inner">U4</div></div>
+  </div>
+
+  <!-- Main Content Area -->
+  <div class="main-content" id="mainContent">
+    <div id="home" class="page active">
+      <div class="post"><h4>@user1</h4><img src="https://via.placeholder.com/400x300" /><p>Post from user1</p></div>
+    </div>
+    <div id="search" class="page">🔍 Search Page</div>
+    <div id="post" class="page">➕ Create Post Page</div>
+    <div id="reels" class="page">🎞️ Reels Page</div>
+    <div id="settings" class="page">⚙️ Settings Page</div>
+  </div>
+
+  <!-- Bottom Navigation Bar -->
+  <div class="bottom-nav">
+    <div class="nav-item" onclick="showPage('home')">Home</div>
+    <div class="nav-item" onclick="showPage('search')">Search</div>
+    <div class="nav-item" onclick="showPage('post')">Post</div>
+    <div class="nav-item" onclick="showPage('reels')">Reels</div>
+    <div class="nav-item" onclick="showPage('settings')">Settings</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
